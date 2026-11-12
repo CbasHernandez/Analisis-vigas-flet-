@@ -1,0 +1,19 @@
+# Entornos y caché de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Bases de datos de trabajo y reportes generados
+datos/
+salidas/
+*.db
+*.sqlite3
+
+# Archivos temporales de Word/Office y del sistema
+~$*.docx
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
